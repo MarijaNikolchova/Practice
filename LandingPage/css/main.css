@@ -92,4 +92,39 @@ main {
         font-weight: bolder;
         color: black;
     }
-    /* card css and start */
+    /* card css and end */
+
+    /* footer start */
+
+    .myContainer {  
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+        gap: 0px 20px;
+        grid-auto-flow: row;
+      }
+
+      .myContainer > div {
+        padding: 2em 3em;
+      }
+
+      .info blockquote {
+        color: gray;
+        line-height: 1.5;
+        width: 80%;
+        margin-bottom: 1.5em;
+      }
+
+      .info a {
+        color: black;
+        text-decoration: none;
+        font-size: 1.3em;
+        margin: 0 10px;
+      }
+
+    /* footer end */
+
+    /* tablet view */
+
+    @media only screen and (min-width: 768px) {
+
+    }
