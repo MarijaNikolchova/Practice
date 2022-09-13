@@ -168,7 +168,7 @@ main {
               }
     }
 
-    @media only screen and (max-width: 7200px) {
+   /** @media only screen and (max-width: 7200px) {
         .parent {
             grid-template-columns: repeat(1, 1fr);
             }
