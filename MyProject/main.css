@@ -2685,6 +2685,8 @@ input, select, textarea {
 					margin-bottom: 0;
 				}
 
-	
+				.error-message {
+					color: red;
+				  }
 
 	}

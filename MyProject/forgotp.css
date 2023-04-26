@@ -75,7 +75,7 @@ body {
   }
 
 
-h1 {
+h2 {
     font-size: 32px;
     margin-top: 0;
     margin-bottom: 20px;
@@ -118,12 +118,6 @@ button {
     opacity: 1;
 }
 
-.login-link {
-    margin-top: 10px;
-    font-size: 14px;
-    color: #7f3f10;
-    font-family: 'Source Sans Pro';
-}
 
 .back-button {
     background-color: #7f3f10;
@@ -144,10 +138,6 @@ button {
   .back-button:hover {
     background-color: #91392f; ;
     cursor: pointer;
-  }
-
-  .error-message {
-    color: red;
   }
 
 @media (max-width: 767px) {

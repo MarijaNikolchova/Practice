@@ -1,6 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Login Page</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="./main.css" />
@@ -9,17 +12,20 @@
 <body>
 	<div class="container">
 		<h1>Login</h1>
-		<form>
+		<form id="login-form">
 			<label for="username">Username:</label>
 			<input type="text" id="username" name="username">
 			<label for="password">Password:</label>
 			<input type="password" id="password" name="password">
 			<button type="submit">Login</button>
 			<div class="register-link">Don't have an account? <a href="./register.html">Register now</a></div>
+			<div class="register-link"><a href="./forgotp.html">Forgot Password?</a></div>
 		</form>
 	</div>
 	
 	<a href="./index.html" class="button back-button">Back Home</a>
-
+	<script src="main.js"></script>
 </body>
 </html>
+
+<form id="register-form"></form>
