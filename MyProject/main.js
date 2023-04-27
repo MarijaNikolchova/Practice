@@ -121,7 +121,7 @@ if (loginForm) {
       errorField.innerHTML = "Login successful.";
       loginForm.reset();
       setTimeout(() => {
-        window.location.href = "/"; // Redirect to homepage after 2 seconds
+        window.location.href = "./index.html"; // Redirect to homepage after 2 seconds
       }, 2000);
     }
   });
