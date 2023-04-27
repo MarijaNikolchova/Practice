@@ -65,3 +65,7 @@
     background-color: #91392f; ;
     cursor: pointer;
   }
+
+.error {
+  color: red;
+}

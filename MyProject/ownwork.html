@@ -1,16 +1,29 @@
-<link rel="stylesheet" href="./main.css" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <link rel="stylesheet" href="./main.css" />
 <link rel="stylesheet" href="./ownwork.css" />
 
 <div class="container">
     <h3>Please make sure your work is not more than 100,000 characters! Click Submit when you're done!</h3>
     <form>
       <label for="title">Title:</label>
-      <input type="text" id="title" name="title" maxlength="100" required>
-      <label for="content">Content:</label>
-      <textarea id="content" name="content" rows="30" cols="100" maxlength="100000" required></textarea>
-      <input type="submit" value="Submit">
+      <input type="text" id="title" name="title"><br><br>
+      <label for="text">Text:</label>
+      <textarea id="text" name="text" rows="10" cols="50"></textarea><br><br>
+      <button type="button" onclick="submitContent()">Submit</button>
     </form>
-
+    <div id="error"></div>
     <a href="./index.html" class="button back-button">Back Home</a>
 
-
+<script src="main.js"></script>
+<script src="ownwork.js"></script>
+<script src="main.cs"></script>
+</body>
+</html>

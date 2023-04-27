@@ -1,0 +1,6 @@
+C:\Users\User\Documents\FullStackDevelopment\Practice\MyProject\obj\Debug\net6.0\mainer.csproj.AssemblyReference.cache
+C:\Users\User\Documents\FullStackDevelopment\Practice\MyProject\obj\Debug\net6.0\mainer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\FullStackDevelopment\Practice\MyProject\obj\Debug\net6.0\mainer.AssemblyInfoInputs.cache
+C:\Users\User\Documents\FullStackDevelopment\Practice\MyProject\obj\Debug\net6.0\mainer.AssemblyInfo.cs
+C:\Users\User\Documents\FullStackDevelopment\Practice\MyProject\obj\Debug\net6.0\mainer.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\FullStackDevelopment\Practice\MyProject\obj\Debug\net6.0\mainer.MvcApplicationPartsAssemblyInfo.cache
